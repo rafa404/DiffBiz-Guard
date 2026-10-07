@@ -1,0 +1,46 @@
+dataset,context,category,kind,hard,differentiable,source,n_rules
+airline_passenger_satisfaction,airline_passenger_satisfaction,domain,lower,True,True,domain-authored,3
+airline_passenger_satisfaction,airline_passenger_satisfaction,domain,range,True,True,domain-authored,15
+airline_passenger_satisfaction,airline_passenger_satisfaction,plausibility,range,False,True,train-derived 0.1%-99.9% envelope,19
+airline_passenger_satisfaction,airline_passenger_satisfaction,schema,integer,True,False,inferred data schema,19
+airline_passenger_satisfaction,airline_passenger_satisfaction,schema,missing_flag,True,False,schema-derived missingness logic,1
+bank_account_fraud_corrected,bank_account_fraud_corrected,domain,lower,True,True,domain-specified,9
+bank_account_fraud_corrected,bank_account_fraud_corrected,domain,range,True,True,domain-specified,1
+bank_account_fraud_corrected,bank_account_fraud_corrected,plausibility,range,False,True,data-derived,20
+bank_account_fraud_corrected,bank_account_fraud_corrected,schema,integer,True,False,schema-inferred,9
+bank_marketing_term_deposit,bank_marketing_term_deposit,domain,less_equal,True,True,domain-specified,1
+bank_marketing_term_deposit,bank_marketing_term_deposit,domain,lower,True,True,domain-specified,13
+bank_marketing_term_deposit,bank_marketing_term_deposit,domain,range,True,True,domain-specified,2
+bank_marketing_term_deposit,bank_marketing_term_deposit,plausibility,range,False,True,data-derived,19
+bank_marketing_term_deposit,bank_marketing_term_deposit,schema,integer,True,False,schema-inferred,12
+customer_churn_large,customer_churn_large,domain,lower,True,True,domain-specified,8
+customer_churn_large,customer_churn_large,domain,range,True,True,domain-specified,4
+customer_churn_large,customer_churn_large,plausibility,range,False,True,data-derived,18
+customer_churn_large,customer_churn_large,schema,integer,True,False,schema-inferred,14
+dataco_supply_chain,dataco_supply_chain,domain,less_equal,True,True,domain/schema relation,2
+dataco_supply_chain,dataco_supply_chain,domain,lower,True,True,domain-authored,9
+dataco_supply_chain,dataco_supply_chain,domain,range,True,True,domain-authored,8
+dataco_supply_chain,dataco_supply_chain,plausibility,range,False,True,train-derived 0.1%-99.9% envelope,24
+dataco_supply_chain,dataco_supply_chain,schema,approx_equal,True,True,date-derived consistency,1
+dataco_supply_chain,dataco_supply_chain,schema,category_numeric_map,True,False,train-verified categorical dependency,1
+dataco_supply_chain,dataco_supply_chain,schema,integer,True,False,inferred data schema,14
+home_credit,home_credit_split_2026,domain,less_equal,True,True,domain-specified,6
+home_credit,home_credit_split_2026,domain,lower,True,True,domain-specified,18
+home_credit,home_credit_split_2026,domain,range,True,True,domain-specified,52
+home_credit,home_credit_split_2026,plausibility,range,False,True,data-derived,70
+home_credit,home_credit_split_2026,schema,integer,True,False,schema-inferred,21
+home_credit,home_credit_split_2027,domain,less_equal,True,True,domain-specified,6
+home_credit,home_credit_split_2027,domain,lower,True,True,domain-specified,18
+home_credit,home_credit_split_2027,domain,range,True,True,domain-specified,52
+home_credit,home_credit_split_2027,plausibility,range,False,True,data-derived,70
+home_credit,home_credit_split_2027,schema,integer,True,False,schema-inferred,21
+home_credit,home_credit_split_2028,domain,less_equal,True,True,domain-specified,6
+home_credit,home_credit_split_2028,domain,lower,True,True,domain-specified,18
+home_credit,home_credit_split_2028,domain,range,True,True,domain-specified,52
+home_credit,home_credit_split_2028,plausibility,range,False,True,data-derived,70
+home_credit,home_credit_split_2028,schema,integer,True,False,schema-inferred,21
+hotel_reservations,hotel_reservations,domain,lower,True,True,domain-authored,9
+hotel_reservations,hotel_reservations,domain,range,True,True,domain-authored,4
+hotel_reservations,hotel_reservations,domain,sum_lower,True,True,domain-authored,1
+hotel_reservations,hotel_reservations,plausibility,range,False,True,train-derived 0.1%-99.9% envelope,14
+hotel_reservations,hotel_reservations,schema,integer,True,False,inferred data schema,13

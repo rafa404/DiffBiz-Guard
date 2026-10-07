@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "audit_label": "classifier-based density-ratio membership audit motivated by DOMIAS",
+  "attack_cap": 5000,
+  "seeds": [
+    13,
+    33,
+    73,
+    101,
+    202
+  ],
+  "density_ratio_classifier": {
+    "model": "CatBoostClassifier",
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.08,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "l2_leaf_reg": 3.0,
+    "thread_count": 2,
+    "reference_split": "validation",
+    "membership_positive": "real train",
+    "membership_negative": "held-out real test",
+    "uses_release_filter_distance": false,
+    "uses_release_filter_threshold": false
+  },
+  "attribute_classifier": {
+    "model": "CatBoostClassifier",
+    "iterations": 250,
+    "depth": 6,
+    "learning_rate": 0.08,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "l2_leaf_reg": 3.0,
+    "thread_count": 2,
+    "training_data": "released synthetic",
+    "sensitive_attribute": "binary dataset target",
+    "background": "remaining modelling predictors"
+  },
+  "target_mapping": {
+    "bank_marketing_term_deposit": "TermDepositSubscribed",
+    "bank_account_fraud_corrected": "fraud_bool",
+    "customer_churn_large": "churn"
+  }
+}

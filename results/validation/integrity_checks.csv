@@ -1,0 +1,5 @@
+check,pass,details
+internal_repair_counts_all_match,True,45/45 rows matched
+breadth_completed_repair_counts_all_match,False,11/14 rows matched
+breadth_all_planned_groups_have_terminal_status,True,9/9 planned groups accounted for; 7 have complete task artifacts
+all_linear_rule_systems_feasible,True,18/18 feasible

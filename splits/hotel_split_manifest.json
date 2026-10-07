@@ -1,0 +1,25 @@
+{
+  "dataset": "hotel_reservations",
+  "source_dataset": "Hotel Reservations Classification",
+  "source_url": "https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset",
+  "source_rows": 36275,
+  "exact_duplicate_cleaned_rows_removed": 10275,
+  "prepared_rows": 26000,
+  "additional_row_cap": null,
+  "split_seeds": [
+    2026,
+    2027
+  ],
+  "rows": {
+    "train": 18200,
+    "validation": 3900,
+    "test": 3900
+  },
+  "source_sha256": null,
+  "split_hashes": null,
+  "contains_row_data": false,
+  "unavailable_fields": [
+    "source_sha256",
+    "split_hashes"
+  ]
+}

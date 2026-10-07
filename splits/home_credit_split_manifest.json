@@ -1,0 +1,92 @@
+{
+  "status": "FROZEN",
+  "dataset": "home_credit_default_risk",
+  "source_sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f",
+  "source_rows": 307511,
+  "source_columns": 122,
+  "complete_table_used": true,
+  "auxiliary_home_credit_tables_used": false,
+  "official_competition_test_used": false,
+  "identifier_excluded": "SK_ID_CURR",
+  "target": "TARGET",
+  "split_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "split_manifests": [
+    {
+      "split_seed": 2026,
+      "protocol": "stratified_70_15_15",
+      "rows": {
+        "train": 215257,
+        "validation": 46127,
+        "test": 46127
+      },
+      "target_rates": {
+        "train": 0.08072675917624049,
+        "validation": 0.08073362672621241,
+        "test": 0.08073362672621241
+      },
+      "train_sha256": "e350e94d70babb5890e804b5a3f321a12c34b31588c5b73cbdf73cb7aae5199f",
+      "validation_sha256": "5866eb63bb0ea370060f2294987663111efae1d4867e6814b89d3e1028001bde",
+      "sealed_test_sha256": "f714f85cd0b8ae7177771b4b25aca60ae8faf97f06c697c7e1588b1aef30ed51",
+      "membership_sha256": "1bb10752971e0a7167c1141b6ced86877513fc29a067707a6a968f322bb5b87d",
+      "schema_sha256": "a3af384a22dedc1734faffdad6d2bd0e1631fb27849a44616f88380547b659ed",
+      "feature_plan_sha256": "5bf95579c07ce9aee38c47d23ce5314506176ac4fc5040f75df0031a13cf7b59",
+      "test_feature_plan_applied": false,
+      "test_used_for_configuration_selection": false
+    },
+    {
+      "split_seed": 2027,
+      "protocol": "stratified_70_15_15",
+      "rows": {
+        "train": 215257,
+        "validation": 46127,
+        "test": 46127
+      },
+      "target_rates": {
+        "train": 0.08072675917624049,
+        "validation": 0.08073362672621241,
+        "test": 0.08073362672621241
+      },
+      "train_sha256": "07584cd6c5aa842f181c5462d26926636a05ae299866e80e3e0849d701f5ead3",
+      "validation_sha256": "c3a8cdf447811cb1e31ce255a6b61df58438bd513f8c467556f75cd02c1ef40c",
+      "sealed_test_sha256": "8f8a298204edf30c748aac3572cbe215d4bf7938660416f76a05aca02d7b15f2",
+      "membership_sha256": "b25960379589aa7ae8d1aae7b4c503d9de4cf380d78dd9109be632bac7ff307b",
+      "schema_sha256": "93516b8c5db7c75e74cb5d28ebfc9e945bb87823d2ecdea0a5e076bb11bdb399",
+      "feature_plan_sha256": "817b9e06ca054130aa68fe0c79be629b284b241774d90ff32357938d2d331d3f",
+      "test_feature_plan_applied": false,
+      "test_used_for_configuration_selection": false
+    },
+    {
+      "split_seed": 2028,
+      "protocol": "stratified_70_15_15",
+      "rows": {
+        "train": 215257,
+        "validation": 46127,
+        "test": 46127
+      },
+      "target_rates": {
+        "train": 0.08072675917624049,
+        "validation": 0.08073362672621241,
+        "test": 0.08073362672621241
+      },
+      "train_sha256": "7cffd0c57324dc64794e3afcba6733433ec2c0e188bad40ce490253b2051042b",
+      "validation_sha256": "77b526a2f01c226017c7e88045e8fb7d22bcd8bf81976283844979aee74f5831",
+      "sealed_test_sha256": "ceeb8a244f51aced4b2e06e5d5579571a81ef990d323671e792c2b753bc4031c",
+      "membership_sha256": "c3fa65f4d634fb4b22a497f6bea08ebad8c271bcb66cde565d0bc46589d6db11",
+      "schema_sha256": "f3b5e1d03c89cf35689f348b1c7d85ef6b18e281f103a82f8a73db77dbb96db9",
+      "feature_plan_sha256": "07b3da61a959db4a248befbf61e7053d051936c35054bcdd094d6c7040a97910",
+      "test_feature_plan_applied": false,
+      "test_used_for_configuration_selection": false
+    }
+  ],
+  "test_records_access_before_unlock": "partition_assignment_and_sealed_write_only",
+  "test_records_used_for_preprocessing_rules_thresholds_or_selection": false,
+  "created_at_utc": "2026-07-25T17:27:25.338289+00:00",
+  "manifest_sha256": "54a215721b7e40dd70c7800a82da757bd9e1190bc4bbb7b5be99f3c275c25b3c",
+  "source_url": "https://www.kaggle.com/competitions/home-credit-default-risk",
+  "contains_row_data": false,
+  "source_file": "application_train.csv"
+}

@@ -1,0 +1,32 @@
+Independent Privacy Audit — FINAL VALIDATION
+====================================================================
+
+STATUS: PASS
+
+Seed-level result rows: 30 / expected 30
+Aggregate result rows: 6 / expected 6
+Datasets: 3 / expected 3
+Variants per dataset: 2 / expected 2
+Seeds per dataset-variant: 5 / expected 5
+Missing numerical results: 0
+Non-finite numerical results: 0
+
+Seed coverage:
+dataset                       variant                       
+bank_account_fraud_corrected  full_diffbiz_guard_balanced       5
+                              posthoc_repair_filter_balanced    5
+bank_marketing_term_deposit   full_diffbiz_guard_balanced       5
+                              posthoc_repair_filter_balanced    5
+customer_churn_large          full_diffbiz_guard_balanced       5
+                              posthoc_repair_filter_balanced    5
+
+Aggregate numerical results:
+                     dataset      dataset_display                        variant        variant_display  n_seeds  density_ratio_mia_auc_mean  density_ratio_mia_auc_sd  attribute_member_auc_mean  attribute_member_auc_sd  attribute_nonmember_auc_mean  attribute_nonmember_auc_sd  attribute_auc_delta_member_minus_nonmember_mean  attribute_auc_delta_member_minus_nonmember_sd  exact_filter_rejects_mean  exact_filter_rejects_sd  nn_filter_rejects_mean  nn_filter_rejects_sd
+ bank_marketing_term_deposit       Bank Marketing    full_diffbiz_guard_balanced   Guided repair/filter        5                    0.503783                  0.006759                   0.667988                 0.010872                      0.668705                    0.004986                                        -0.000717                                       0.013237                        0.0                      0.0                   123.8             33.357158
+ bank_marketing_term_deposit       Bank Marketing posthoc_repair_filter_balanced Unguided repair/filter        5                    0.506183                  0.007686                   0.667960                 0.009642                      0.667947                    0.005085                                         0.000013                                       0.009314                        0.0                      0.0                   120.0             31.016125
+bank_account_fraud_corrected   Bank Account Fraud    full_diffbiz_guard_balanced   Guided repair/filter        5                    0.502797                  0.006235                   0.906385                 0.056053                      0.907976                    0.049370                                        -0.001591                                       0.017152                        0.0                      0.0                    58.8              5.630275
+bank_account_fraud_corrected   Bank Account Fraud posthoc_repair_filter_balanced Unguided repair/filter        5                    0.503121                  0.004582                   0.905576                 0.052357                      0.908732                    0.047160                                        -0.003156                                       0.012269                        0.0                      0.0                    58.4              9.071935
+        customer_churn_large Large Customer Churn    full_diffbiz_guard_balanced   Guided repair/filter        5                    0.496940                  0.003631                   0.623402                 0.044926                      0.626688                    0.038515                                        -0.003287                                       0.036093                        0.0                      0.0                   118.0             18.398369
+        customer_churn_large Large Customer Churn posthoc_repair_filter_balanced Unguided repair/filter        5                    0.496804                  0.003189                   0.628247                 0.032968                      0.631434                    0.036589                                        -0.003187                                       0.034112                        0.0                      0.0                   114.0             17.790447
+
+VALIDATION RESULT: PASS

@@ -1,0 +1,19 @@
+dataset,context,scope,feasible,status,n_rules_in_scope,n_linear_rules,excluded_kinds
+bank_marketing_term_deposit,bank_marketing_term_deposit,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),28,16,integer
+bank_marketing_term_deposit,bank_marketing_term_deposit,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),35,35,
+bank_account_fraud_corrected,bank_account_fraud_corrected,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),19,10,integer
+bank_account_fraud_corrected,bank_account_fraud_corrected,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),30,30,
+customer_churn_large,customer_churn_large,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),26,12,integer
+customer_churn_large,customer_churn_large,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),30,30,
+airline_passenger_satisfaction,airline_passenger_satisfaction,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),38,18,integer|missing_flag
+airline_passenger_satisfaction,airline_passenger_satisfaction,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),37,37,
+hotel_reservations,hotel_reservations,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),27,14,integer
+hotel_reservations,hotel_reservations,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),28,28,
+dataco_supply_chain,dataco_supply_chain,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),35,20,category_numeric_map|integer
+dataco_supply_chain,dataco_supply_chain,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),44,44,
+home_credit,home_credit_split_2026,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),97,76,integer
+home_credit,home_credit_split_2026,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),146,146,
+home_credit,home_credit_split_2027,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),97,76,integer
+home_credit,home_credit_split_2027,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),146,146,
+home_credit,home_credit_split_2028,hard_linear,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),97,76,integer
+home_credit,home_credit_split_2028,guidance_differentiable,True,Optimization terminated successfully. (HiGHS Status 7: Optimal),146,146,

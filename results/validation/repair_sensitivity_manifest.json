@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "build_id": "internal-repair-strategy-sensitivity-v1.0",
+  "created_at_utc": "2026-10-05T10:58:32.782388+00:00",
+  "tasks_expected": 15,
+  "tasks_completed": 15,
+  "strategy_evaluations": 90,
+  "datasets": [
+    "bank_marketing_term_deposit",
+    "bank_account_fraud_corrected",
+    "customer_churn_large"
+  ],
+  "seeds": [
+    13,
+    33,
+    73,
+    101,
+    202
+  ],
+  "strategies": [
+    "no_repair",
+    "original_one_pass",
+    "repeat_until_stable",
+    "reverse_one_pass",
+    "bounds_first_one_pass",
+    "relations_first_one_pass"
+  ],
+  "training_performed": false,
+  "sampling_performed": false,
+  "test_split_opened": false,
+  "input_policy": "read_only",
+  "scientific_configuration_changed": false,
+  "evidence_role": "exploratory_repair_strategy_sensitivity",
+  "interpretation": {
+    "repeat_until_stable_exactly_matches_original_tasks": 15,
+    "repeat_until_stable_tasks": 15,
+    "alternative_order_evaluations": 45,
+    "alternative_order_evaluations_different_from_original": 0,
+    "alternative_order_evaluations_with_residual_hard_violations": 0,
+    "all_original_one_pass_outputs_stable": true,
+    "all_repeat_outputs_stable": true
+  }
+}

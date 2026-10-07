@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or its reproducibility artifacts, please cite the DiffBiz-Guard manuscript."
+title: "DiffBiz-Guard reproducibility release"
+type: software
+authors:
+  - family-names: "Hafiz"
+    given-names: "M.M. Golam"
+  - family-names: "Simi"
+    given-names: "Safia Akter"
+  - family-names: "Islam"
+    given-names: "Md. Rakibul"
+  - family-names: "Mridha"
+    given-names: "Muhammad Firoz"
+preferred-citation:
+  type: article
+  title: "DiffBiz-Guard: Inference-Time Numerical Business-Rule Guidance for Auditable Synthetic Tabular Data Release"
+  authors:
+    - family-names: "Hafiz"
+      given-names: "M.M. Golam"
+    - family-names: "Simi"
+      given-names: "Safia Akter"
+    - family-names: "Islam"
+      given-names: "Md. Rakibul"
+    - family-names: "Mridha"
+      given-names: "Muhammad Firoz"

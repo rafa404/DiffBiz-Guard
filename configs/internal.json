@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    "bank_marketing_term_deposit",
+    "bank_account_fraud_corrected",
+    "customer_churn_large"
+  ],
+  "seeds": [
+    13,
+    33,
+    73,
+    101,
+    202
+  ],
+  "diffusion": {
+    "steps": 1000,
+    "noise_schedule": "cosine",
+    "hidden_layers": 4,
+    "hidden_width": 1024,
+    "timestep_embedding": 256,
+    "class_embedding": 256,
+    "activation": "SiLU",
+    "training_updates": 20000,
+    "effective_batch_size": 8192,
+    "learning_rate": 0.001
+  },
+  "guidance": {
+    "lambda": 0.1,
+    "domain_rule_weight": 1.0,
+    "plausibility_rule_weight": 0.2,
+    "clean_state_clip": [
+      -8.0,
+      8.0
+    ],
+    "rms_floor": 1e-07,
+    "gradient_clip": [
+      -10.0,
+      10.0
+    ],
+    "categorical_posterior_guided": false
+  },
+  "release": {
+    "size": 12000,
+    "initial_oversampling_fraction": 0.35,
+    "locked_proposal_count": 16201,
+    "exact_match_filtering": true,
+    "numerical_hash_rounding_decimals": 8,
+    "nearest_neighbor_threshold": "1st percentile of positive within-training nearest-neighbor distances",
+    "reference_cap": 12000
+  }
+}

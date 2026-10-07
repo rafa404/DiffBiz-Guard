@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Independent membership- and attribute-inference privacy audits on the internal released tables.}
+\label{tab:independent-privacy-attacks}
+\scriptsize
+\setlength{\tabcolsep}{3.3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Dataset} & \textbf{Release} & \makecell{\textbf{Density-ratio}\\\textbf{MIA AUC}} & \makecell{\textbf{Attribute AUC}\\\textbf{members}} & \makecell{\textbf{Attribute AUC}\\\textbf{non-members}} & \makecell{\textbf{$\Delta$ attribute AUC}\\\textbf{member--non-member}} \\
+\midrule
+Bank Marketing & Guided repair/filter & $0.504\pm0.007$ & $0.668\pm0.011$ & $0.669\pm0.005$ & $-0.001\pm0.013$ \\
+Bank Marketing & Unguided repair/filter & $0.506\pm0.008$ & $0.668\pm0.010$ & $0.668\pm0.005$ & $0.000\pm0.009$ \\
+Bank Account Fraud & Guided repair/filter & $0.503\pm0.006$ & $0.906\pm0.056$ & $0.908\pm0.049$ & $-0.002\pm0.017$ \\
+Bank Account Fraud & Unguided repair/filter & $0.503\pm0.005$ & $0.906\pm0.052$ & $0.909\pm0.047$ & $-0.003\pm0.012$ \\
+Large Customer Churn & Guided repair/filter & $0.497\pm0.004$ & $0.623\pm0.045$ & $0.627\pm0.039$ & $-0.003\pm0.036$ \\
+Large Customer Churn & Unguided repair/filter & $0.497\pm0.003$ & $0.628\pm0.033$ & $0.631\pm0.037$ & $-0.003\pm0.034$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\vspace{0.3em}
+\begin{minipage}{0.99\textwidth}
+\scriptsize
+\textit{Note.} Values are mean $\pm$ standard deviation across five released synthetic tables (seeds 13, 33, 73, 101, and 202). The density-ratio membership attack estimates the synthetic-to-reference density ratio with a probabilistic classifier trained on the released synthetic table and the disjoint real validation split; membership AUC then distinguishes real training members from held-out test non-members. No nearest-neighbour distance or release-filter threshold enters this attack. For attribute inference, the dataset target is treated as the withheld sensitive attribute and all remaining model predictors as attacker background information. The attacker is trained on the released synthetic table and evaluated separately on real members and non-members. $\Delta$ is member AUC minus non-member AUC. Filter rejection counts are reported separately in Table~\ref{tab:internal-stagewise}.
+\end{minipage}
+\end{table}

@@ -1,0 +1,23 @@
+{
+  "dataset": "airline_passenger_satisfaction",
+  "source_dataset": "Airline Passenger Satisfaction",
+  "source_url": "https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction",
+  "source_preparation": "Concatenate supplied train and test source files; target-stratified sample to 120000 rows.",
+  "sampling_seed": 2026,
+  "split_seeds": [
+    2026,
+    2027
+  ],
+  "rows": {
+    "train": 84000,
+    "validation": 18000,
+    "test": 18000
+  },
+  "source_sha256": null,
+  "split_hashes": null,
+  "contains_row_data": false,
+  "unavailable_fields": [
+    "source_sha256",
+    "split_hashes"
+  ]
+}

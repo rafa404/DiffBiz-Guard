@@ -1,0 +1,174 @@
+source_notebook,configuration_block,parameter,value
+notebook05,environment_config,created_at_utc,2026-07-20T17:50:35.558485+00:00
+notebook05,environment_config,python,"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]"
+notebook05,environment_config,platform,Linux-6.12.90+-x86_64-with-glibc2.35
+notebook05,environment_config,numpy,2.0.2
+notebook05,environment_config,pandas,2.3.3
+notebook05,environment_config,scipy,1.16.3
+notebook05,environment_config,scikit_learn,1.6.1
+notebook05,environment_config,torch,2.10.0+cu128
+notebook05,environment_config,xgboost_available,True
+notebook05,environment_config,catboost_available,True
+notebook05,environment_config,sdmetrics_available,True
+notebook05,environment_config,configuration.project_name,DiffBiz_Guard_05_v1_1
+notebook05,environment_config,configuration.run_mode,full
+notebook05,environment_config,configuration.force,False
+notebook05,environment_config,configuration.base_seed,2026
+notebook05,environment_config,configuration.deterministic,True
+notebook05,environment_config,configuration.expected_seeds,"[13, 33, 73, 101, 202]"
+notebook05,environment_config,configuration.expected_methods,"[""tabddpm_corrected"", ""gaussian_copula"", ""ctgan"", ""tvae""]"
+notebook05,environment_config,configuration.downstream_models,"[""catboost"", ""logistic_regression"", ""random_forest"", ""xgboost""]"
+notebook05,environment_config,configuration.enable_tstr,True
+notebook05,environment_config,configuration.enable_trtr,True
+notebook05,environment_config,configuration.enable_tr_plus_synth,True
+notebook05,environment_config,configuration.enable_trts,False
+notebook05,environment_config,configuration.threshold_metric,f1
+notebook05,environment_config,configuration.calibration_bins,10
+notebook05,environment_config,configuration.fidelity_row_cap,12000
+notebook05,environment_config,configuration.correlation_row_cap,12000
+notebook05,environment_config,configuration.privacy_synth_cap,3000
+notebook05,environment_config,configuration.privacy_train_cap,8000
+notebook05,environment_config,configuration.privacy_test_cap,4000
+notebook05,environment_config,configuration.mia_member_cap,3000
+notebook05,environment_config,configuration.subgroup_min_rows,50
+notebook05,environment_config,configuration.max_distribution_columns_per_run,3
+notebook05,environment_config,configuration.allow_unverified_runs,False
+notebook05,environment_config,configuration.invalid_test_overlap_rate,0.001
+notebook05,environment_config,configuration.ci_level,0.95
+notebook05,environment_config,configuration.save_predictions,True
+notebook05,environment_config,configuration.include_raw_input_inventory,True
+notebook06,run_config,expected_dataset_slug,diffbiz-guard-tabddpm-04r-full-results-v1
+notebook06,run_config,guidance_scales,"[0.0, 0.05, 0.1, 0.15, 0.2]"
+notebook06,run_config,conditioning_strategies,"[""preserve"", ""balanced""]"
+notebook06,run_config,coarse_seeds,[33]
+notebook06,run_config,coarse_final_rows,3000
+notebook06,run_config,confirmation_seeds,"[13, 73]"
+notebook06,run_config,confirmation_final_rows,6000
+notebook06,run_config,top_k_confirmation,2
+notebook06,run_config,oversample_factor,1.35
+notebook06,run_config,sampling_batch_size,2048
+notebook06,run_config,privacy_reference_cap,12000
+notebook06,run_config,privacy_quantile,0.01
+notebook06,run_config,fidelity_sample_cap,6000
+notebook06,run_config,heartbeat_seconds,300
+notebook06,run_config,archive_refresh_seconds,900
+notebook06,run_config,max_gpu_workers,2
+notebook06,run_config,deterministic,True
+notebook06,run_config,domain_rule_train_tolerance,0.001
+notebook06,run_config,selection_weights.validity,0.35
+notebook06,run_config,selection_weights.utility,0.3
+notebook06,run_config,selection_weights.fidelity,0.2
+notebook06,run_config,selection_weights.target_prior,0.05
+notebook06,run_config,selection_weights.yield,0.05
+notebook06,run_config,selection_weights.runtime,0.05
+notebook06,selected_configuration,status,locked
+notebook06,selected_configuration,checkpoint_version,notebook04r-official-tabddpm-core-v1.2-fp32-training-stability-fix
+notebook06,selected_configuration,selected_at_utc,2026-07-21T12:55:25.540683+00:00
+notebook06,selected_configuration,guidance_scale,0.1
+notebook06,selected_configuration,conditioning,balanced
+notebook06,selected_configuration,diffusion_steps,1000
+notebook06,selected_configuration,tabddpm_training_rerun,False
+notebook06,selected_configuration,selection_split,validation
+notebook06,selected_configuration,test_split_used_or_opened,False
+notebook06,selected_configuration,coarse_seeds,[33]
+notebook06,selected_configuration,confirmation_seeds,"[13, 73]"
+notebook06,selected_configuration,final_run_seeds_for_notebook07,"[13, 33, 73, 101, 202]"
+notebook06,selected_configuration,selection_weights.validity,0.35
+notebook06,selected_configuration,selection_weights.utility,0.3
+notebook06,selected_configuration,selection_weights.fidelity,0.2
+notebook06,selected_configuration,selection_weights.target_prior,0.05
+notebook06,selected_configuration,selection_weights.yield,0.05
+notebook06,selected_configuration,selection_weights.runtime,0.05
+notebook06,selected_configuration,selection_rule,"dataset-normalized weighted validation score; lower is better; conservative tie-break by worst dataset, lower guidance, preserve prior"
+notebook06,selected_configuration,selected_metrics.guidance_scale,0.1
+notebook06,selected_configuration,selected_metrics.conditioning,balanced
+notebook06,selected_configuration,selected_metrics.selection_score,0.4000000000000001
+notebook06,selected_configuration,selected_metrics.worst_dataset_score,0.5750000000000001
+notebook06,selected_configuration,selected_metrics.datasets,3
+notebook06,selected_configuration,selected_metrics.validation_tstr_auprc,0.3031147502735584
+notebook06,selected_configuration,selected_metrics.pre_hard_violation_rate,0.03879978625946062
+notebook06,selected_configuration,selected_metrics.pre_any_violation_rate,0.06621643258022815
+notebook06,selected_configuration,selected_metrics.fidelity_raw,0.04596619328870454
+notebook06,selected_configuration,selected_metrics.target_prior_absolute_error,0.36392581906498894
+notebook06,selected_configuration,selected_metrics.final_yield,1.0
+notebook06,selected_configuration,selected_metrics.elapsed_seconds,136.58787436599997
+notebook06,selected_configuration,selected_metrics.minimum_seed_count,3
+notebook06,selected_configuration,selected_metrics.conditioning_tiebreak,1
+notebook06,selected_configuration,selected_metrics.rank,1
+notebook06,selected_configuration,input_04r_root,kaggle_path_omitted
+notebook06,selected_configuration,configuration_sha256,5208add0441a5c9a324c9093c92613e2b61276fe28a84f74926729694c5c6e38
+notebook07,run_config,expected_04r_slug,diffbiz-guard-tabddpm-04r-full-results-v1
+notebook07,run_config,expected_06_slug,diffbiz-guard-notebook06-validation-audit-v1
+notebook07,run_config,final_rows,12000
+notebook07,run_config,oversample_factor,1.35
+notebook07,run_config,sampling_batch_size,2048
+notebook07,run_config,heartbeat_seconds,600
+notebook07,run_config,archive_refresh_seconds,1200
+notebook07,run_config,max_gpu_workers,2
+notebook07,run_config,deterministic,True
+notebook07,run_config,privacy_reference_cap,12000
+notebook07,run_config,privacy_quantile,0.01
+notebook07,run_config,privacy_attack_cap,5000
+notebook07,run_config,fidelity_sample_cap,6000
+notebook07,run_config,discriminator_sample_cap,4000
+notebook07,run_config,utility_models,"[""primary_tree"", ""logistic_regression""]"
+notebook07,run_config,catboost_iterations,250
+notebook07,run_config,catboost_depth,6
+notebook07,run_config,catboost_learning_rate,0.08
+notebook07,run_config,threads_per_worker,2
+notebook07,run_config,run_preserve_sensitivity,True
+notebook07,run_config,domain_rule_train_tolerance,0.001
+notebook07,run_config,save_primary_predictions,True
+notebook07,final_manifest,status,COMPLETED
+notebook07,final_manifest,project,DiffBiz_Guard_07
+notebook07,final_manifest,created_at_utc,2026-07-21T19:48:58.808570+00:00
+notebook07,final_manifest,checkpoint_version,notebook04r-official-tabddpm-core-v1.2-fp32-training-stability-fix
+notebook07,final_manifest,locked_configuration.status,locked
+notebook07,final_manifest,locked_configuration.checkpoint_version,notebook04r-official-tabddpm-core-v1.2-fp32-training-stability-fix
+notebook07,final_manifest,locked_configuration.selected_at_utc,2026-07-21T12:55:25.540683+00:00
+notebook07,final_manifest,locked_configuration.guidance_scale,0.1
+notebook07,final_manifest,locked_configuration.conditioning,balanced
+notebook07,final_manifest,locked_configuration.diffusion_steps,1000
+notebook07,final_manifest,locked_configuration.tabddpm_training_rerun,False
+notebook07,final_manifest,locked_configuration.selection_split,validation
+notebook07,final_manifest,locked_configuration.test_split_used_or_opened,False
+notebook07,final_manifest,locked_configuration.coarse_seeds,[33]
+notebook07,final_manifest,locked_configuration.confirmation_seeds,"[13, 73]"
+notebook07,final_manifest,locked_configuration.final_run_seeds_for_notebook07,"[13, 33, 73, 101, 202]"
+notebook07,final_manifest,locked_configuration.selection_weights.validity,0.35
+notebook07,final_manifest,locked_configuration.selection_weights.utility,0.3
+notebook07,final_manifest,locked_configuration.selection_weights.fidelity,0.2
+notebook07,final_manifest,locked_configuration.selection_weights.target_prior,0.05
+notebook07,final_manifest,locked_configuration.selection_weights.yield,0.05
+notebook07,final_manifest,locked_configuration.selection_weights.runtime,0.05
+notebook07,final_manifest,locked_configuration.selection_rule,"dataset-normalized weighted validation score; lower is better; conservative tie-break by worst dataset, lower guidance, preserve prior"
+notebook07,final_manifest,locked_configuration.selected_metrics.guidance_scale,0.1
+notebook07,final_manifest,locked_configuration.selected_metrics.conditioning,balanced
+notebook07,final_manifest,locked_configuration.selected_metrics.selection_score,0.4000000000000001
+notebook07,final_manifest,locked_configuration.selected_metrics.worst_dataset_score,0.5750000000000001
+notebook07,final_manifest,locked_configuration.selected_metrics.datasets,3
+notebook07,final_manifest,locked_configuration.selected_metrics.validation_tstr_auprc,0.3031147502735584
+notebook07,final_manifest,locked_configuration.selected_metrics.pre_hard_violation_rate,0.03879978625946062
+notebook07,final_manifest,locked_configuration.selected_metrics.pre_any_violation_rate,0.06621643258022815
+notebook07,final_manifest,locked_configuration.selected_metrics.fidelity_raw,0.04596619328870454
+notebook07,final_manifest,locked_configuration.selected_metrics.target_prior_absolute_error,0.36392581906498894
+notebook07,final_manifest,locked_configuration.selected_metrics.final_yield,1.0
+notebook07,final_manifest,locked_configuration.selected_metrics.elapsed_seconds,136.58787436599997
+notebook07,final_manifest,locked_configuration.selected_metrics.minimum_seed_count,3
+notebook07,final_manifest,locked_configuration.selected_metrics.conditioning_tiebreak,1
+notebook07,final_manifest,locked_configuration.selected_metrics.rank,1
+notebook07,final_manifest,locked_configuration.input_04r_root,kaggle_path_omitted
+notebook07,final_manifest,locked_configuration.configuration_sha256,5208add0441a5c9a324c9093c92613e2b61276fe28a84f74926729694c5c6e38
+notebook07,final_manifest,expected_groups,15
+notebook07,final_manifest,completed_groups,15
+notebook07,final_manifest,failed_groups,0
+notebook07,final_manifest,expected_utility_rows,270
+notebook07,final_manifest,utility_rows,270
+notebook07,final_manifest,test_split_opened_for_locked_final_evaluation,True
+notebook07,final_manifest,test_data_used_for_training_or_configuration_selection,False
+notebook07,final_manifest,tabddpm_training_rerun,False
+notebook07,final_manifest,primary_variant,full_diffbiz_guard_balanced
+notebook07,final_manifest,sensitivity_variant,full_diffbiz_guard_preserve_sensitivity
+notebook07,final_manifest,privacy_claim,empirical risk indicators only; no formal privacy guarantee
+notebook07,final_manifest,fairness_claim,subgroup preservation and performance audit only; no formal fairness guarantee
+notebook07,final_manifest,output_root,kaggle_path_omitted

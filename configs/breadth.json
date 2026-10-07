@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    "airline_passenger_satisfaction",
+    "hotel_reservations",
+    "dataco_supply_chain"
+  ],
+  "seeds": [
+    13,
+    33,
+    73
+  ],
+  "guidance_lambda": 0.1,
+  "conditioning": "balanced",
+  "fixed_configuration_transfer": true,
+  "dataset_specific_retuning": false,
+  "sampling_seed": 2026,
+  "split_seeds": [
+    2026,
+    2027
+  ]
+}

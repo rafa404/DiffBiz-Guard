@@ -1,0 +1,66 @@
+{
+  "dataset": "bank_marketing_term_deposit",
+  "target": "TermDepositSubscribed",
+  "disjoint_checks": {
+    "train_validation": true,
+    "train_test": true,
+    "validation_test": true
+  },
+  "summary": [
+    {
+      "split": "train",
+      "rows": 69999,
+      "positive_rate": 0.30021857455106504,
+      "index_hash": "3045e189a8f1a34fe7964d08cab67dd4c3c492981c5e09056e3171910d2f5282"
+    },
+    {
+      "split": "validation",
+      "rows": 15001,
+      "positive_rate": 0.3001799880007999,
+      "index_hash": "cb697683bf0ead2368dc82ed6ed7b050cddba79de5689b5666ad00193cc1ac72"
+    },
+    {
+      "split": "test",
+      "rows": 15000,
+      "positive_rate": 0.3002,
+      "index_hash": "b1c5cc27b34c7e056fa66eaf4e495ef493250fb8c66fd7a7841661d279578d01"
+    }
+  ],
+  "preparation_audit": {
+    "dataset": "bank_marketing_term_deposit",
+    "source_sha256": "e89e673da6f2b566591202287c18807158b615d40d9d443abdd2b4707cdaf961",
+    "raw_shape": [
+      100000,
+      45
+    ],
+    "prepared_shape": [
+      100000,
+      40
+    ],
+    "target": "TermDepositSubscribed",
+    "subgroup": "Gender",
+    "target_mapping": {
+      "negative_original": "0",
+      "positive_original": "1",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      }
+    },
+    "explicit_drops": [
+      "ClientID"
+    ],
+    "detected_identifier_drops": [],
+    "leakage_candidate_drops": [
+      "LastContactDuration",
+      "CallResponseScore",
+      "MarketingScore",
+      "ResponsePropensity"
+    ],
+    "constant_column_drops": [],
+    "date_columns_expanded": []
+  },
+  "source_url": "https://www.kaggle.com/datasets/nisargpatel344/bank-marketing-dataset-for-term-deposit-prediction",
+  "contains_row_data": false,
+  "source_file": "Bank_Marketing_Dataset.csv"
+}

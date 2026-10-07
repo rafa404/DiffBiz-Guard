@@ -1,0 +1,66 @@
+{
+  "dataset": "customer_churn_large",
+  "target": "churn",
+  "disjoint_checks": {
+    "train_validation": true,
+    "train_test": true,
+    "validation_test": true
+  },
+  "summary": [
+    {
+      "split": "train",
+      "rows": 84000,
+      "positive_rate": 0.0999047619047619,
+      "index_hash": "30c35768ad9569162954f7c670aa5ce421067978b7c5f53d5fe75d9a1b301804"
+    },
+    {
+      "split": "validation",
+      "rows": 18000,
+      "positive_rate": 0.09988888888888889,
+      "index_hash": "b787e19a46e1017c28d7124c4610e2fb0486310ebb1bfc3bd4a4f4af9a03d8d8"
+    },
+    {
+      "split": "test",
+      "rows": 18000,
+      "positive_rate": 0.09988888888888889,
+      "index_hash": "a8b206cacb9b80fe13f65bda5200d386301309727f0cf24d467c26ea47196cf1"
+    }
+  ],
+  "preparation_audit": {
+    "dataset": "customer_churn_large",
+    "source_sha256": "3c75217ee298234572af864155693525f73479610d60bc9088cd050a7223a00a",
+    "raw_shape": [
+      120000,
+      32
+    ],
+    "prepared_shape": [
+      120000,
+      34
+    ],
+    "target": "churn",
+    "subgroup": "gender",
+    "target_mapping": {
+      "negative_original": "0",
+      "positive_original": "1",
+      "mapping": {
+        "0": 0,
+        "1": 1
+      }
+    },
+    "explicit_drops": [
+      "customer_id"
+    ],
+    "detected_identifier_drops": [
+      "customer_id"
+    ],
+    "leakage_candidate_drops": [],
+    "constant_column_drops": [],
+    "date_columns_expanded": [
+      "signup_date"
+    ]
+  },
+  "source_url": "https://www.kaggle.com/datasets/isandeep06/customer-churn-prediction-dataset-1m",
+  "contains_row_data": false,
+  "source_file": "customer_churn_1M.csv",
+  "upstream_1m_to_120k_operator": "unavailable_in_preserved_lineage"
+}

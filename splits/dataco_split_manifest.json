@@ -1,0 +1,23 @@
+{
+  "dataset": "dataco_supply_chain",
+  "source_dataset": "DataCo Smart Supply Chain for Big Data Analysis",
+  "source_url": "https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis",
+  "preparation": "Target-stratified sample to 120000 modelling rows.",
+  "sampling_seed": 2026,
+  "split_seeds": [
+    2026,
+    2027
+  ],
+  "rows": {
+    "train": 84000,
+    "validation": 18000,
+    "test": 18000
+  },
+  "source_sha256": null,
+  "split_hashes": null,
+  "contains_row_data": false,
+  "unavailable_fields": [
+    "source_sha256",
+    "split_hashes"
+  ]
+}

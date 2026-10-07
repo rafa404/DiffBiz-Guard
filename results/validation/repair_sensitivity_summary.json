@@ -1,0 +1,9 @@
+{
+  "repeat_until_stable_exactly_matches_original_tasks": 15,
+  "repeat_until_stable_tasks": 15,
+  "alternative_order_evaluations": 45,
+  "alternative_order_evaluations_different_from_original": 0,
+  "alternative_order_evaluations_with_residual_hard_violations": 0,
+  "all_original_one_pass_outputs_stable": true,
+  "all_repeat_outputs_stable": true
+}

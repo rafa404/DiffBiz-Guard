@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "verification_status": "ANALYZED",
+  "privacy_attack_evidence": {
+    "source_archive_bytes": 14921,
+    "source_archive_sha256": "67560db2a82c89cba632ef7200c52136841fd4ac1c74fb0929dd68d8d6c84193",
+    "zip_integrity": "pass",
+    "internal_manifest": "pass",
+    "seed_level_rows": 30,
+    "summary_rows": 6,
+    "coverage": "3 datasets x 2 variants x 5 seeds",
+    "finite_numerical_results": true,
+    "aggregate_recalculation": "pass",
+    "execution_record": {
+      "bytes": 56469,
+      "sha256": "96f578456de2cd208b34806e8f46326338c6b15200f0f591ac2f0a3f32381543",
+      "format": "Jupyter 4.5",
+      "code_cells": 2,
+      "execution_counts": [1, 2],
+      "output_blocks": 2,
+      "error_outputs": 0,
+      "core_source_matches_preserved_final_source": true,
+      "emitted_seed_rows_matching_public_csv": 30,
+      "final_validation_marker": "PASS",
+      "included_in_public_release": false
+    }
+  },
+  "repair_sensitivity_evidence": {
+    "source_archive_bytes": 1046053,
+    "source_archive_sha256": "0c6871696a8cfcac6a8ea9ef231a24362a4c1ce4064797e7a00d931c1f8f867d",
+    "zip_integrity": "pass",
+    "internal_package_manifest_entries": 17,
+    "internal_package_manifest": "pass",
+    "tasks_expected": 15,
+    "tasks_completed": 15,
+    "strategy_evaluations": 90,
+    "task_level_rows": 90,
+    "summary_rows": 18,
+    "paired_test_rows": 72,
+    "repeat_trace_rows": 85,
+    "rule_order_rows": 1460,
+    "reported_interpretation_recalculation": "pass"
+  },
+  "experiments_rerun_during_release_assembly": false,
+  "note": "Validation checked supplied artifacts and deterministic aggregates; it did not rerun generator training, sampling, or privacy attacks."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "build_id": "independent-privacy-attack-audit-v1.0",
+  "validation_status": "PASS",
+  "expected_seed_level_rows": 30,
+  "observed_seed_level_rows": 30,
+  "expected_summary_rows": 6,
+  "observed_summary_rows": 6,
+  "datasets": 3,
+  "variants_per_dataset": 2,
+  "seeds_per_dataset_variant": 5,
+  "attack_cap": 5000,
+  "source_package_manifest_verified": true,
+  "public_files": [
+    "results/seed_level/privacy_attack_seed_level.csv",
+    "results/table_inputs/privacy_attack_summary.csv",
+    "results/validation/privacy_attack_report.md",
+    "results/validation/privacy_attack_validation.txt",
+    "results/validation/privacy_attack_table.tex"
+  ]
+}

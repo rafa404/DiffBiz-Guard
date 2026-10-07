@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source_file": "application_train.csv",
+  "target": "TARGET",
+  "identifier_for_split_tracking_only": "SK_ID_CURR",
+  "split_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "generator_seeds": [
+    13,
+    33,
+    73
+  ],
+  "predictors": 121,
+  "numerical_predictors": 70,
+  "categorical_predictors": 51,
+  "sentinel_handling": {
+    "DAYS_EMPLOYED": 365243,
+    "indicator": "DAYS_EMPLOYED_ANOMALOUS"
+  },
+  "training_rescue": {
+    "finite_model_weights_resumed": true,
+    "optimizer_reset": true,
+    "mixed_precision": false,
+    "precision": "FP32",
+    "warmup_updates": 750,
+    "learning_rate_before": 0.001,
+    "learning_rate_after": 0.0001
+  },
+  "selection_guard": "No test outcome was used to select guidance or release configuration.",
+  "paired_proposal_ceiling": 48000
+}

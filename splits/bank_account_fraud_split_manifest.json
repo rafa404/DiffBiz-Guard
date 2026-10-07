@@ -1,0 +1,70 @@
+{
+  "created_at_utc": "2026-07-15T16:30:34.207604+00:00",
+  "dataset": "bank_account_fraud_corrected",
+  "source_sha256": "470899bbef97c32a100528d63e863e1b1036df9501df6ef8140e7ec13b7365b4",
+  "source_subset": "first_120000_rows",
+  "target": "fraud_bool",
+  "test_size": 0.15,
+  "validation_size": 0.15,
+  "same_membership_as_original_corrupted_split": true,
+  "expected_index_hashes": {
+    "train": "0a70ef1456371d8a5ea4f6f4faa5c3e6717228ea59bfc06df8c78229bb627b3a",
+    "validation": "6c108c74bfcd2b0e4b8d2b36ba8a9546bf9fcdfb68a34180fb45c9179d9e6ba7",
+    "test": "d2089d5b1aa73cc3f5ca6c035e55ce3532c528ea6bb1ea521c9d4ed861bc2114"
+  },
+  "disjoint_index_checks": {
+    "train_validation": true,
+    "train_test": true,
+    "validation_test": true
+  },
+  "disjoint_normalized_row_checks": {
+    "train_validation": true,
+    "train_test": true,
+    "validation_test": true
+  },
+  "summary": [
+    {
+      "split": "train",
+      "rows": 84000,
+      "target_counts": {
+        "0": 83105,
+        "1": 895
+      },
+      "positive_rate": 0.010654761904761905,
+      "index_hash": "0a70ef1456371d8a5ea4f6f4faa5c3e6717228ea59bfc06df8c78229bb627b3a",
+      "duplicate_rows": 0
+    },
+    {
+      "split": "validation",
+      "rows": 18000,
+      "target_counts": {
+        "0": 17808,
+        "1": 192
+      },
+      "positive_rate": 0.010666666666666666,
+      "index_hash": "6c108c74bfcd2b0e4b8d2b36ba8a9546bf9fcdfb68a34180fb45c9179d9e6ba7",
+      "duplicate_rows": 0
+    },
+    {
+      "split": "test",
+      "rows": 18000,
+      "target_counts": {
+        "0": 17808,
+        "1": 192
+      },
+      "positive_rate": 0.010666666666666666,
+      "index_hash": "d2089d5b1aa73cc3f5ca6c035e55ce3532c528ea6bb1ea521c9d4ed861bc2114",
+      "duplicate_rows": 0
+    }
+  ],
+  "source_url": "https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022",
+  "contains_row_data": false,
+  "source_file": "Variant V.csv",
+  "source_rows": 1000000,
+  "prepared_rows": 120000,
+  "split_seeds": {
+    "test": 2026,
+    "train_validation": 2027
+  },
+  "legacy_manifest_split_seed": 2026
+}

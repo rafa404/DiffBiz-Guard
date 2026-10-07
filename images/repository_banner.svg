@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">DiffBiz-Guard</title>
+  <desc id="desc">Inference-time numerical guidance followed by deterministic repair, empirical filtering, and controlled release.</desc>
+  <style>
+    .bg { fill: #f7f9fb; }
+    .ink { fill: #102a43; }
+    .muted { fill: #52606d; }
+    .line { stroke: #9fb3c8; }
+    .node { fill: #ffffff; stroke: #bcccdc; }
+    .accent { fill: #0f766e; }
+    .accentText { fill: #ffffff; }
+    .step { font: 600 22px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .small { font: 500 16px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .title { font: 700 58px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; letter-spacing: -1.5px; }
+    .subtitle { font: 400 22px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1b2a; }
+      .ink { fill: #e6eef5; }
+      .muted { fill: #b8c7d4; }
+      .line { stroke: #486581; }
+      .node { fill: #132f3a; stroke: #486581; }
+      .accent { fill: #168f84; }
+    }
+  </style>
+  <rect class="bg" width="1440" height="420" rx="24"/>
+  <rect class="accent" x="72" y="66" width="10" height="102" rx="5"/>
+  <text class="ink title" x="112" y="118">DiffBiz-Guard</text>
+  <text class="muted subtitle" x="112" y="160">Inference-time numerical business-rule guidance for auditable tabular release</text>
+
+  <line class="line" x1="225" y1="286" x2="1215" y2="286" stroke-width="4"/>
+  <circle class="accent" cx="225" cy="286" r="9"/>
+  <circle class="accent" cx="472" cy="286" r="9"/>
+  <circle class="accent" cx="720" cy="286" r="9"/>
+  <circle class="accent" cx="968" cy="286" r="9"/>
+  <circle class="accent" cx="1215" cy="286" r="9"/>
+
+  <g transform="translate(120 232)">
+    <rect class="node" width="210" height="108" rx="12" stroke-width="2"/>
+    <text class="ink step" x="105" y="46" text-anchor="middle">Raw sampling</text>
+    <text class="muted small" x="105" y="75" text-anchor="middle">Frozen backbone</text>
+  </g>
+  <g transform="translate(367 232)">
+    <rect class="accent" width="210" height="108" rx="12"/>
+    <text class="accentText step" x="105" y="46" text-anchor="middle">Guidance</text>
+    <text class="accentText small" x="105" y="75" text-anchor="middle">Numerical rules</text>
+  </g>
+  <g transform="translate(615 232)">
+    <rect class="node" width="210" height="108" rx="12" stroke-width="2"/>
+    <text class="ink step" x="105" y="46" text-anchor="middle">Repair</text>
+    <text class="muted small" x="105" y="75" text-anchor="middle">Registered operators</text>
+  </g>
+  <g transform="translate(863 232)">
+    <rect class="node" width="210" height="108" rx="12" stroke-width="2"/>
+    <text class="ink step" x="105" y="46" text-anchor="middle">Filter</text>
+    <text class="muted small" x="105" y="75" text-anchor="middle">Empirical proximity</text>
+  </g>
+  <g transform="translate(1110 232)">
+    <rect class="node" width="210" height="108" rx="12" stroke-width="2"/>
+    <text class="ink step" x="105" y="46" text-anchor="middle">Release</text>
+    <text class="muted small" x="105" y="75" text-anchor="middle">Controlled policy</text>
+  </g>
+</svg>
