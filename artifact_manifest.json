@@ -2,7 +2,7 @@
   "schema_version": 1,
   "algorithm": "SHA-256",
   "scope": "All public files; the two manifest files are listed but exempt from self-referential size and hash fields.",
-  "file_count": 104,
+  "file_count": 105,
   "files": [
     {
       "path": ".gitignore",
@@ -160,8 +160,8 @@
     },
     {
       "path": "docs/RELEASE_VALIDATION.md",
-      "bytes": 3686,
-      "sha256": "394796a77b8ab5f1ce964295d78cdf996e046762a69d6de6c9047c00b20f2bb6",
+      "bytes": 3741,
+      "sha256": "50d1fa509d0b149e63637b2b4e317fd8a879cd51e40d055e9a5e6657598e3235",
       "category": "documentation",
       "source_provenance": "public release documentation",
       "transformed": true
@@ -255,9 +255,17 @@
       "transformed": true
     },
     {
+      "path": "LICENSE",
+      "bytes": 1072,
+      "sha256": "82718781022d3780157eff82d9ba309f3dea0fa2b17ad4574bb3e104e81fe89a",
+      "category": "repository metadata",
+      "source_provenance": "release assembly",
+      "transformed": true
+    },
+    {
       "path": "README.md",
-      "bytes": 13973,
-      "sha256": "aaa22f8757cbce0a056ea5ca4d12ffa937bb58f82af29557789f8d512647055e",
+      "bytes": 14087,
+      "sha256": "4c29924c5d18a09782a6be7c53220cd0d03f228be83ab9d39f01a8648d937d6c",
       "category": "repository metadata",
       "source_provenance": "public scientific repository specification",
       "transformed": true

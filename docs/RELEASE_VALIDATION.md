@@ -1,8 +1,8 @@
 # Release validation
 
-- Date/time: `2026-10-07T17:35:35+06:00`
+- Date/time: `2026-10-20T16:49:31+06:00`
 - Verification Status: **ANALYZED**
-- Public files: 104
+- Public files: 105
 - Overall validation: **PASS**
 
 `ANALYZED` means the public artifacts and deterministic table reconstruction were checked without rerunning costly stochastic training, generation, or attack computations.
@@ -19,6 +19,7 @@ DiffBiz-Guard/
   docs/ (6 files)
   examples/ (3 files)
   images/ (6 files)
+  LICENSE
   README.md
   registries/ (7 files)
   requirements.txt
@@ -68,7 +69,7 @@ DiffBiz-Guard/
 - Breadth source and split hashes were unavailable in the preserved lineage and remain explicit null values.
 - The privacy and repair-sensitivity outputs were checked against their final manifests and deterministic aggregates; the underlying experiments were not rerun.
 - No animated GIF was added because the existing scientific pipeline plus the compact original SVG banner communicate the workflow without redundant motion or repository weight.
-- No software license was selected, so no license file was added.
+- The software code is released under the MIT License; third-party dataset and provider terms remain separate.
 
 ## Decision
 

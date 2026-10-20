@@ -1,6 +1,6 @@
 # Artifact manifest
 
-This manifest lists all 104 public files. SHA-256 and byte size cover every non-manifest file. The JSON and Markdown manifests are listed but self-reference exempt.
+This manifest lists all 105 public files. SHA-256 and byte size cover every non-manifest file. The JSON and Markdown manifests are listed but self-reference exempt.
 
 | Path | Bytes | SHA-256 | Category | Source provenance | Transformed |
 |---|---:|---|---|---|:---:|
@@ -23,7 +23,7 @@ This manifest lists all 104 public files. SHA-256 and byte size cover every non-
 | `docs/ARTIFACT_MANIFEST.md` | self-reference exempt | self-reference exempt | artifact manifest | rendered from the machine-readable manifest | yes |
 | `docs/DATASETS.md` | 2644 | `347d500a8d0f5b29ee125cc61af1c3852e13f83f79b0f9dbdcd0d53dbfbf109f` | documentation | public release documentation | yes |
 | `docs/METHOD.md` | 4184 | `3c7a67dc53ce12278e073b09f3a3f07422e8782eee64ba9f278ef60935779a79` | documentation | public release documentation | yes |
-| `docs/RELEASE_VALIDATION.md` | 3686 | `394796a77b8ab5f1ce964295d78cdf996e046762a69d6de6c9047c00b20f2bb6` | documentation | public release documentation | yes |
+| `docs/RELEASE_VALIDATION.md` | 3741 | `50d1fa509d0b149e63637b2b4e317fd8a879cd51e40d055e9a5e6657598e3235` | documentation | public release documentation | yes |
 | `docs/REPRODUCIBILITY.md` | 2391 | `ee65cf39997643878cdae85ee81322fdca99ef6f1926c83c390f0db6d73e8f17` | documentation | public release documentation | yes |
 | `docs/TABLE_MAPPING.md` | 1575 | `8713edac4762652419ae24e20ce32d777651977871823ef740187b623f0b0f77` | documentation | public release documentation | yes |
 | `examples/basic_guidance_example.py` | 1785 | `8dccfe3bbb4a3359b18ea5066ac42dcbcdcad7107c926bca8e9974c9f859f3f1` | usage example | public API demonstration created for this release | yes |
@@ -35,7 +35,8 @@ This manifest lists all 104 public files. SHA-256 and byte size cover every non-
 | `images/Figure_05_Sparse_Guidance_Selection.png` | 643690 | `13d578c718f54f531197ec89a40db34f526f233e944e50497de4e6ab593a32cb` | visual asset | final manuscript visual asset | no |
 | `images/pipeline.png` | 4038961 | `f9467cc65324d7a12e8223b89e5ebb858c48a46bd66a962b3dd503746387c4f1` | visual asset | final manuscript visual asset | no |
 | `images/repository_banner.svg` | 3323 | `95ebc796d61c4656e2be6522c6c8db5dd68b4469f17269e68a86b9a625d63a28` | visual asset | original repository identity asset | yes |
-| `README.md` | 13973 | `aaa22f8757cbce0a056ea5ca4d12ffa937bb58f82af29557789f8d512647055e` | repository metadata | public scientific repository specification | yes |
+| `LICENSE` | 1072 | `82718781022d3780157eff82d9ba309f3dea0fa2b17ad4574bb3e104e81fe89a` | repository metadata | release assembly | yes |
+| `README.md` | 14087 | `4c29924c5d18a09782a6be7c53220cd0d03f228be83ab9d39f01a8648d937d6c` | repository metadata | public scientific repository specification | yes |
 | `registries/airline.csv` | 18525 | `3a83e2cc48a70492dafa89dacefbd8d0141debbee5e1933fd93b8930aad4c14b` | rule registry | complete final rule registry | yes |
 | `registries/bank_account_fraud.csv` | 11802 | `7461edd551222173c99baef57baba5711cf98c9ffd67e1504b75f853987d1ae0` | rule registry | complete final rule registry | yes |
 | `registries/bank_marketing.csv` | 13743 | `2f392984ddfbc876f320a7e1dc7daf6826cc006c8ee2f8de0852856705aec535` | rule registry | complete final rule registry | yes |

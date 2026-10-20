@@ -13,6 +13,7 @@ DiffBiz-Guard guides the numerical reverse trajectory of a frozen mixed-type tab
   <img alt="PyTorch 2.10" src="https://img.shields.io/badge/PyTorch-2.10-B5472E?style=flat-square&logo=pytorch&logoColor=white">
   <img alt="Research code" src="https://img.shields.io/badge/Research_code-Reproducibility-0F766E?style=flat-square">
   <img alt="Manuscript under revision" src="https://img.shields.io/badge/Manuscript-Under_revision-725A2B?style=flat-square">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-0F766E?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -226,4 +227,4 @@ The manuscript is under revision. No DOI or publication metadata is asserted. Ci
 
 ## License, Data Terms, and Attribution
 
-No software license was selected in the authoritative project, so no `LICENSE` file is included and no open-source grant should be inferred. Dataset access remains subject to the original providers' terms. The manuscript and repository are attributed to M.M. Golam Hafiz, Safia Akter Simi, Md. Rakibul Islam, and Muhammad Firoz Mridha.
+The software code is released under the [MIT License](LICENSE). Dataset access and use remain subject to the original providers' terms; the MIT License does not grant rights to third-party datasets. The manuscript and repository are attributed to M.M. Golam Hafiz, Safia Akter Simi, Md. Rakibul Islam, and Muhammad Firoz Mridha.
